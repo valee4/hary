@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8e1e1; /* Cambia el color de fondo */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px; /* Cambia el tamaño del texto */
+    color: #ef63ae; /* Cambia el color del texto */
+    margin-bottom: 20px;
+}
+
+.gif-container {
+    max-width: 30px; /* Cambia el ancho máximo del contenedor del GIF */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.gif-container img {
+    
+    height: auto; /* Ajusta automáticamente la altura según el ancho */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+#si-btn {
+    font-size: 24px; /* Cambia el tamaño del botón */
+    background-color: #32cd32; /* Cambia el color de fondo del botón */
+    color: #fff; /* Cambia el color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Añade transform al transition */
+}
+
+#si-btn:hover {
+    background-color: #228b22; /* Cambia el color de fondo del botón al pasar el ratón sobre él */
+}
+
+#no-btn {
+    font-size: 20px; /* Cambia el tamaño del botón */
+    color: #fff; /* Cambia el color del texto del botón */
+    background-color: #ff6347; /* Cambia el color de fondo del botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#no-btn:hover {
+    background-color: #cd5c5c; /* Cambia el color de fondo del botón al pasar el ratón sobre él */
+}
